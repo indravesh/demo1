@@ -4,7 +4,7 @@ steps:
   id: Deploy
   args:
   - 'apply'
-  - '- f'
+  - '-f'
   - 'nginx-deploy.yaml'
 
 

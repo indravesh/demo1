@@ -1,0 +1,12 @@
+steps:
+
+- name: "gcr.io/cloud-build/kubectl"
+  id: deploy
+  args:
+  - 'apply'
+  - 'f'
+  - kube-deployment.yml
+
+  env:
+  - 'CLOUDSDK_COMPUTE_ZONE=us-central1-c'
+  - 'CLOUDSDK_CONTAINER_CLUSTER=demo1'

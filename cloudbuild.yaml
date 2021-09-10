@@ -1,6 +1,6 @@
 steps:
 
-- name: 'cloud-builders'
+- name: 'gcr.io/cloud-builders/kubectl'
   id: Deploy
   args:
   - 'apply'

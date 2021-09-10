@@ -5,7 +5,7 @@ steps:
   args:
   - 'apply'
   - 'f'
-  - kube-deployment.yml
+  - 'kube-deployment.yml'
 
   env:
   - 'CLOUDSDK_COMPUTE_ZONE=us-central1-c'

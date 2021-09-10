@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       # - image: gcr.io/staticweb-test/nginx-webapp:v1
-      - image: docker.io/nginx:latest
+      - image: gcr.io/ic-int-sandbox-tarique/nginx
         name: webapp
         imagePullPolicy: Always
         # env:

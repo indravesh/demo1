@@ -6,6 +6,8 @@ steps:
   - 'apply'
   - '- f'
   - 'kube-deployment.yml'
+options:
+  logging: CLOUD_LOGGING_ONLY
 
   env:
   - 'CLOUDSDK_COMPUTE_ZONE=us-central1-c'

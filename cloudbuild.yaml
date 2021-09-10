@@ -5,7 +5,7 @@ steps:
   args:
   - 'apply'
   - '- f'
-  - 'kube-deployment.yml'
+  - 'nginx-deploy.yaml'
 
 
   env:
